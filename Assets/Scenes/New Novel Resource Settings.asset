@@ -19,19 +19,19 @@ MonoBehaviour:
       spriteData:
       - CharacterKey: {fileID: 11400000, guid: aaf781a3681c5024e93a85226b0e1096, type: 2}
         KeyEnum: normal
-        CharactorSprite: {fileID: 1634114862732455561, guid: 5605a346772890c44908ae2224de5ecd, type: 3}
+        CharactorSprite: {fileID: 1634114862732455561, guid: 84f7ff16f7f4d214c93e75f011cac685, type: 3}
     - sr: {fileID: 11400000, guid: d82a83c0e992f7a41a1af5b12f75810e, type: 2}
       spriteData:
       - CharacterKey: {fileID: 11400000, guid: d82a83c0e992f7a41a1af5b12f75810e, type: 2}
         KeyEnum: normal
-        CharactorSprite: {fileID: 9068903083612988343, guid: bffa6105d9f848149b4a77bec45581bf, type: 3}
+        CharactorSprite: {fileID: -5689966509025676444, guid: 44cb8e3ada7200a488c4dae865c8670d, type: 3}
     - sr: {fileID: 11400000, guid: 752b0cfa5df083d458e4303b11b51814, type: 2}
       spriteData:
       - CharacterKey: {fileID: 11400000, guid: 752b0cfa5df083d458e4303b11b51814, type: 2}
         KeyEnum: normal
-        CharactorSprite: {fileID: 620405429636648041, guid: 790ddedadbfec72469af8816e7e1e7c3, type: 3}
+        CharactorSprite: {fileID: -7969718273919445983, guid: d153914bdaf4e2342977e1d507344370, type: 3}
     - sr: {fileID: 11400000, guid: 752b0cfa5df083d458e4303b11b51814, type: 2}
       spriteData:
       - CharacterKey: {fileID: 11400000, guid: 752b0cfa5df083d458e4303b11b51814, type: 2}
         KeyEnum: respon
-        CharactorSprite: {fileID: 620405429636648041, guid: 790ddedadbfec72469af8816e7e1e7c3, type: 3}
+        CharactorSprite: {fileID: 0}
