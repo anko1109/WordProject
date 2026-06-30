@@ -247,14 +247,14 @@ namespace NovelGameDialogue
                     Debug.LogWarning($"Sprite update skipped: id={d.CharacterId}, state={d.State}, renderer={(character != null)}, sprite={(resolvedSprite != null)}");
                 }
 
-                if (optionData.dialogueText != null && !optionData.dialogueText.gameObject.activeSelf)
+                if (optionData.dialogueText != null && !optionData.dialogueText.gameObject.activeInHierarchy)
                 {
                     optionData.dialogueText.gameObject.SetActive(true);
 
-                    
+
                     Transform parent = optionData.dialogueText.transform.parent;
 
-                    if(parent != null)
+                    if (parent != null)
                     {
                         parent.gameObject.SetActive(true);
                     }
@@ -294,8 +294,8 @@ namespace NovelGameDialogue
                 if (character != null)
                 {
                     character.sprite = null;
-                    
-                    
+
+
 
                 }
             }
@@ -304,9 +304,11 @@ namespace NovelGameDialogue
             {
                 optionData.dialogueText.text = string.Empty;
                 optionData.dialogueText.gameObject.SetActive(false);
-                Transform parent = optionData.dialogueText.transform.parent;
 
-                if(parent != null)
+                Transform parent = optionData.dialogueText.transform.parent;
+                Canvas canvas = parent.gameObject.GetComponent<Canvas>();
+
+                if (parent != null && canvas == null)
                 {
                     parent.gameObject.SetActive(false);
                 }
@@ -384,7 +386,7 @@ namespace NovelGameDialogue
             }
         }
 
-        private static async Task WaitUntilAsync(Func<bool> predicate)
+        public static async Task WaitUntilAsync(Func<bool> predicate)
         {
             while (!predicate())
             {

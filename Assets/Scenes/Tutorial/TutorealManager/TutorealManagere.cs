@@ -91,6 +91,6 @@ public class TutorealManagere : MonoBehaviour
     
     void tutoreal4()
     {
-    	novelEventManager.Play(novelGameSettings[2].DialogueCSV, tutoreal5);
+    	//novelEventManager.Play(novelGameSettings[2].DialogueCSV, tutoreal5);
   	}
 }

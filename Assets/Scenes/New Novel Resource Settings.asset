@@ -24,12 +24,12 @@ MonoBehaviour:
       spriteData:
       - CharacterKey: {fileID: 11400000, guid: d82a83c0e992f7a41a1af5b12f75810e, type: 2}
         KeyEnum: normal
-        CharactorSprite: {fileID: 9068903083612988343, guid: bffa6105d9f848149b4a77bec45581bf, type: 3}
+        CharactorSprite: {fileID: 6153843240504382613, guid: 930a608cf59c5234f948a09eb32c8b1a, type: 3}
     - sr: {fileID: 11400000, guid: 752b0cfa5df083d458e4303b11b51814, type: 2}
       spriteData:
       - CharacterKey: {fileID: 11400000, guid: 752b0cfa5df083d458e4303b11b51814, type: 2}
         KeyEnum: normal
-        CharactorSprite: {fileID: 620405429636648041, guid: 790ddedadbfec72469af8816e7e1e7c3, type: 3}
+        CharactorSprite: {fileID: 9150001725247024526, guid: a1abd817371025a4692c4412e05cfc81, type: 3}
     - sr: {fileID: 11400000, guid: 752b0cfa5df083d458e4303b11b51814, type: 2}
       spriteData:
       - CharacterKey: {fileID: 11400000, guid: 752b0cfa5df083d458e4303b11b51814, type: 2}
